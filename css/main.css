@@ -1,0 +1,75 @@
+*{
+	text-decoration: none;
+	list-style-type: none;
+}
+a, .amarillo .row{ 
+    color: white;
+ }
+header{
+	width: 100%;
+	height: 50px;
+	background-color: #FCCE09;
+}
+header a div {
+	background-color: #FCBA43;
+	width: 110px;
+    height: 40px;
+    position: fixed;
+    margin-top: 45px;
+    z-index: 4;
+}
+header a div p{
+    position: relative;
+    left: 10px;
+    top: 11px;
+}
+header nav li {
+	display: inline;
+	margin-left: 35px;
+	float: right;
+	margin-top: 15px;
+}
+.amarillo{
+	background-color: #FCCE09;
+	background-size: 100%;
+	height: 600px;
+	padding-top: 150px;
+}
+.grey{
+    background-color: #EAEAE9;
+	background-size: 100%;
+	padding-top: 70px;
+}
+.caja{
+	background-color: white;
+	padding-top: 20px;	
+	padding-left: 10px;
+	margin-bottom: 30px;
+	padding-bottom: 20px;
+}
+.grey .col-6 div img{
+    padding-bottom: 20px;
+    padding-left: 70px;
+}
+.grey .col-6 div p{
+	color: #CBC0BC;
+	margin-bottom: 5px;
+	margin-left: 10px;
+	margin-top: 8px;
+}
+.grey .col-6 div div{
+   	background-color: #FCBA43;
+	width: 140px;
+    margin-top: 25px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+footer{
+	background-color: #262624;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	color: white;
+}
+footer a{
+	color: #0B9AD1;
+}
